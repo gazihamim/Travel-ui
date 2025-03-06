@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel UI Kit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-black w-full max-h-screen gap-2 p-2 flex">
+    <div class="w-[50%] h-screen space-y-2">
+      <div class="">
+        <img
+          class="rounded-xl"
+          src="tom-barrett-M0AWNxnLaMw-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div
+        class="bg-[url(h1.jpg)] rounded-xl p-3 w-full bg-cover bg-center "
+      >
+        <h1 class="text-white text-center uppercase font-semibold text-xl">
+          wheather you are dreaming of sun-soaked beaches,<br />bustling
+          cityscapes, or serene mountain <br />
+          retreats,your adventure starts here.
+        </h1>
+      </div>
+    </div>
+    <div class="bg-white w-[50%] h-full rounded-xl px-14 py-12 space-y-7 ">
+        <div>
+            <h1 class="uppercase font-bold text-2xl ">your gateway to</h1>
+            <h2 class="uppercase font-bold text-2xl ">unforgettable journeys</h1>
+                <p class="text-gray-400 text-sm mt-4 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus explicabo dicta pariatur quisquam rem hic sunt doloribust illum.</p>
+        </div>
+        <div>
+            <label class="block mb-2 font-semibold " for="Email">Email</label>
+            <input class="border border-gray-400 focus:outline-none w-full rounded-sm py-2 px-3 mb-4" type="text" placeholder="Input email">
+            <label class="block mb-2 font-semibold " for="Password">Password</label>
+            <input class="border border-gray-400 focus:outline-none w-full rounded-sm py-2 px-3" type="text" placeholder="*********">
+        </div>
+        <div>
+            <span class="text-gray-500 text-sm">New to Traveller?</span>
+            <a class="font-semibold underline" href="#">Create an Account</a>
+        </div>
+        <div class="font-semibold flex items-center justify-between mb-10">
+          <div><input type="checkbox"><span class="ml-2">Remember me</span> </div>
+          <a class="hover:underline" href="#">Forget your password</a> 
+        </div>
+        <div>
+            <button class="bg-[#0b1907] text-center text-white w-full py-2 rounded-md hover:bg-black">Login-Continue Exploring and Planning</button>
+        </div>
+        <div class="flex items-center justify-between mt-8">
+           <hr class="text-gray-300  w-60">
+           <span>Or</span> 
+           <hr class="text-gray-300  w-60"> 
+        </div>
+        <div class="space-y-4">
+          <button class="w-full bg-white hover:bg-gray-200 flex items-center font-medium justify-center border-1 rounded-md border-gray-200 py-2">
+            <img class="w-7 mr-1" src="Google_Icons-09-512.png" alt="">
+            <span>Sign in with Google</span>
+          </button>
+          <button class="bg-[#0b1907] hover:bg-black w-full flex items-center justify-center text-white py-3 rounded-md">
+            <i class="fa-brands fa-apple fa-lg"></i>
+            <span class="font-semibold ml-2">Sign in with Apple</span>
+          </button>
+          <button class="bg-[#1977f0] w-full flex hover:bg-blue-600 items-center justify-center text-white py-3 rounded-md">
+            <i class="fa-brands fa-facebook"></i>
+            <span class="font-semibold ml-2">Sign in with Apple</span>
+          </button>
+        </div>
+    </div>
+  </body>
+</html>
